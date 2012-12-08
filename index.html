@@ -6,13 +6,12 @@
 
     <meta name="robots" content="index, follow">
     <meta name="author" content="Mitchell Kember">
-    <meta name="copyright" content="Copyright 2012 Mitchell Kember">
     <meta name="description" content="A simple online AES decryption tool.">
     <meta name="keywords" content="cryptography, decryption, AES, AES 256, Rijndael">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Google's HTML5 for old browsers -->
     <!--[if lt IE 9]>
@@ -22,7 +21,7 @@
 <body>
     <a id="fork-me" href="https://github.com/mk12/aes">Fork me on GitHub</a>
     <div></div>
-    <form>
+    <form id="form" action="">
         <h1>AES Decryption</h1>
         <p>The Advanced Encryption Standard.</p>
         <fieldset id="input">
@@ -34,8 +33,9 @@
         <fieldset>
             <input type="submit" value="Decrypt">
         </fieldset>
-        <textarea placeholder="Plaintext" readonly></textarea>
+        <textarea id="plaintext" placeholder="Plaintext" readonly></textarea>
     </form>
-    <!-- <script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/aes.js"></script> -->
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/aes.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
