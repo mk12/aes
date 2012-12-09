@@ -54,8 +54,10 @@ function submit() {
     });
 };
 
-document.getElementById("form").onsubmit = function() {
-    submit();
-    return false;
+document.onload = function() {
+    document.getElementById("form").onsubmit = function() {
+        submit();
+        return false;
+    };
 };
 
