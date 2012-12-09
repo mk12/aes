@@ -14,9 +14,9 @@ Your best bet to create a file that will work with AES Descryption is OpenSSL:
 
     $ openssl aes-256-cbc -base64 -in secrets -out secrets.aes
 
-Use a strong [passphrase][] and then store this file somewhere on the web (e.g. Dropbox). Fire up [AES Decryption][aes] and enter in the URL and passhrase.
+Use a strong [passphrase][pass] and then store this file somewhere on the web (e.g. Dropbox). Fire up [AES Decryption][aes], enter in the URL and passhrase, and click the decrypt button.
 
-[passhrase]: http://passphra.se
+[pass]: http://passphra.se
 [aes]: http://mitchellkember.com/aes/
 
 License
@@ -26,4 +26,4 @@ Copyright © 2012 Mitchell Kember
 
 AES Decryption is available under the MIT license, see [LICENSE][] for details.
 
-[LICENSE]: https://github.com/mk12/aes/blob/master/LICENSE.md
+[LICENSE]: https://github.com/mk12/aes/blob/gh-pages/LICENSE.md
