@@ -54,7 +54,7 @@ function submit() {
     });
 };
 
-document.onload = function() {
+window.onload = function() {
     document.getElementById("form").onsubmit = function() {
         submit();
         return false;
