@@ -24,6 +24,4 @@ License
 
 Copyright © 2012 Mitchell Kember
 
-AES Decryption is available under the MIT License; see [LICENSE][] for details.
-
-[LICENSE]: https://github.com/mk12/aes/blob/gh-pages/LICENSE.md
+AES Decryption is available under the MIT License; see [LICENSE](LICENSE.md) for details.
