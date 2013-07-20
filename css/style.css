@@ -1,119 +1,119 @@
 @import 'reset.css';
 
 body {
-    text-align: center;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-    color: #eee;
-    background: url('../images/background.png') repeat #222;
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color: #eee;
+	background: url('../images/background.png') repeat #222;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-        background-image: url('../images/background@2x.png');
-        background-size: 4px 4px;
-    }
+	body {
+		background-image: url('../images/background@2x.png');
+		background-size: 4px 4px;
+	}
 
-    #fork-me {
-        background-image: url('https://github.com/philwareham/github-ribbons-retina/raw/master/fork-me@2x.png') !important;
-        background-size: 140px 140px;
-    }
+	#fork-me {
+		background-image: url('https://github.com/philwareham/github-ribbons-retina/raw/master/fork-me@2x.png') !important;
+		background-size: 140px 140px;
+	}
 }
 
 #fork-me {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 9999;
-    width: 140px;
-    height: 140px;
-    text-indent: -9999px;
-    background-image: url('https://github.com/philwareham/github-ribbons-retina/raw/master/fork-me.png');
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	width: 140px;
+	height: 140px;
+	text-indent: -9999px;
+	background-image: url('https://github.com/philwareham/github-ribbons-retina/raw/master/fork-me.png');
 }
 
 html, body { height: 100% }
 
 div {
-    float: left;
-    height: 50%;
-    margin-bottom: -220px;
-    width: 100%;
+	float: left;
+	height: 50%;
+	margin-bottom: -220px;
+	width: 100%;
 }
 
 form {
-    width: 500px;
-    height: 400px;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
-    overflow: hidden;
+	width: 500px;
+	height: 400px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	overflow: hidden;
 
-    background: #1d1d1d;
-    border: 1px solid #080808;
-    box-shadow: 0 0 1px #444 inset;
-    -moz-box-shadow: 0 0 1px #444 inset;
-    -webkit-box-shadow: 0 0 1px #444 inset;
+	background: #1d1d1d;
+	border: 1px solid #080808;
+	box-shadow: 0 0 1px #444 inset;
+	-moz-box-shadow: 0 0 1px #444 inset;
+	-webkit-box-shadow: 0 0 1px #444 inset;
 }
 
 form p {
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 form, #input {
-    border-radius: 12px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -webkit-background-clip: padding-box;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-webkit-background-clip: padding-box;
 }
 
 #input {
-    background: #1e1e1e;
-    border: 1px solid #0e0e0e;
-    padding: 20px 5px 10px;
-    box-shadow: 0 0 20px #292929 inset;
-    -moz-box-shadow: 0 0 20px #292929 inset;
-    -webkit-box-shadow: 0 0 20px #292929 inset;
+	background: #1e1e1e;
+	border: 1px solid #0e0e0e;
+	padding: 20px 5px 10px;
+	box-shadow: 0 0 20px #292929 inset;
+	-moz-box-shadow: 0 0 20px #292929 inset;
+	-webkit-box-shadow: 0 0 20px #292929 inset;
 }
 
 #input label {
-    float: left;
-    clear: left;
-    width: 95px;
-    text-align: right;
-    margin-top: 6px;
-    font-size: 0.9em;
-    color: #aaa;
+	float: left;
+	clear: left;
+	width: 95px;
+	text-align: right;
+	margin-top: 6px;
+	font-size: 0.9em;
+	color: #aaa;
 }
 
 #input input {
-    width: 330px;
-    height: 25px;
-    padding: 3px 10px;
-    margin-bottom: 15px;
+	width: 330px;
+	height: 25px;
+	padding: 3px 10px;
+	margin-bottom: 15px;
 }
 
 #input input, textarea {
-    outline: none;
-    border: none;
-    color: #ddd;
+	outline: none;
+	border: none;
+	color: #ddd;
 
-    background: #333;
-    background: -moz-linear-gradient(top, #2a2a2a 0%, #333 20%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(20%, #333));
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    box-shadow: 0 1px 0 #444;
-    -moz-box-shadow: 0 1px 0 #444;
-    -webkit-box-shadow: 0 1px 0 #444;
+	background: #333;
+	background: -moz-linear-gradient(top, #2a2a2a 0%, #333 20%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(20%, #333));
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 1px 0 #444;
+	-moz-box-shadow: 0 1px 0 #444;
+	-webkit-box-shadow: 0 1px 0 #444;
 }
 
 textarea {
-    width: 480px;
-    height: 94px;
-    padding: 10px;
-    resize: none;
+	width: 480px;
+	height: 94px;
+	padding: 10px;
+	resize: none;
 }
 
 textarea.error { color: #ee4331; }
@@ -131,45 +131,45 @@ textarea.error { color: #ee4331; }
 #input input.error:focus::-moz-placeholder { color: #f75844; }
 
 #input input:focus {
-    background: #3a3a3a;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f2f2f), color-stop(20%, #3a3a3a));
-    background: -moz-linear-gradient(top, #2f2f2f 0%, #3a3a3a 20%);
+	background: #3a3a3a;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f2f2f), color-stop(20%, #3a3a3a));
+	background: -moz-linear-gradient(top, #2f2f2f 0%, #3a3a3a 20%);
 }
 
 input[type=submit] {
-    width: 185px;
-    height: 35px;
-    margin: 15px 0;
-    background: #222;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3a3a3a), color-stop(100%, #2a2a2a));
-    background: -moz-linear-gradient(top, #3a3a3a 0%, #2a2a2a 100%);
-    border: 1px solid #000;
-    color: #aaa;
-    font-size: 0.8em;
-    text-shadow: 1px 1px 0 #000;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+	width: 185px;
+	height: 35px;
+	margin: 15px 0;
+	background: #222;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3a3a3a), color-stop(100%, #2a2a2a));
+	background: -moz-linear-gradient(top, #3a3a3a 0%, #2a2a2a 100%);
+	border: 1px solid #000;
+	color: #aaa;
+	font-size: 0.8em;
+	text-shadow: 1px 1px 0 #000;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 input[type=submit]:hover, input[type=submit]:active {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3a3a3a), color-stop(100%, #222));
-    background: -moz-linear-gradient(top, #2a2a2a 0%, #3a3a3a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3a3a3a), color-stop(100%, #222));
+	background: -moz-linear-gradient(top, #2a2a2a 0%, #3a3a3a 100%);
 }
 
 input[type=submit]:active {
-    box-shadow: 0 0 5px #1a1a1a inset;
-    -moz-box-shadow: 0 0 5px #1a1a1a inset;
-    -webkit-box-shadow: 0 0 5px #1a1a1a inset;
+	box-shadow: 0 0 5px #1a1a1a inset;
+	-moz-box-shadow: 0 0 5px #1a1a1a inset;
+	-webkit-box-shadow: 0 0 5px #1a1a1a inset;
 }
 
 h1 {
-    line-height: 2em;
-    font-weight: bold;
-    font-size: 2em;
-    text-rendering: optimizeLegibility;
+	line-height: 2em;
+	font-weight: bold;
+	font-size: 2em;
+	text-rendering: optimizeLegibility;
 }
 
 ::selection { background: #ee4331; }

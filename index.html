@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>AES Decryption</title>
+	<meta charset="utf-8">
+	<title>AES Decryption</title>
 
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Mitchell Kember">
-    <meta name="description" content="A simple online AES decryption tool.">
-    <meta name="keywords" content="cryptography, decryption, AES, AES 256, Rijndael">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Mitchell Kember">
+	<meta name="description" content="A simple online AES decryption tool.">
+	<meta name="keywords" content="cryptography, decryption, AES, AES 256, Rijndael">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
 
-    <!-- Google's HTML5 for old browsers -->
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<!-- Google's HTML5 for old browsers -->
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body>
-    <a id="fork-me" href="https://github.com/mk12/aes">Fork me on GitHub</a>
-    <div></div>
-    <form id="form" action="">
-        <h1>AES Decryption</h1>
-        <p>The Advanced Encryption Standard.</p>
-        <fieldset id="input">
-            <label>Ciphertext:</label>
-            <input id="ciphertext" type="text" placeholder="Enter the Base64 encoded AES ciphertext" autofocus required>
-            <label>Passphrase:</label>
-            <input id="passphrase" type="password" placeholder="Enter the passphrase" required>
-        </fieldset>
-        <fieldset>
-            <input type="submit" value="Decrypt">
-        </fieldset>
-        <textarea id="plaintext" readonly></textarea>
-    </form>
-    <script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/aes.js"></script>
-    <script src="js/script.js"></script>
+	<a id="fork-me" href="https://github.com/mk12/aes">Fork me on GitHub</a>
+	<div></div>
+	<form id="form" action="">
+		<h1>AES Decryption</h1>
+		<p>The Advanced Encryption Standard.</p>
+		<fieldset id="input">
+			<label>Ciphertext:</label>
+			<input id="ciphertext" type="text" placeholder="Enter the Base64 encoded AES ciphertext" autofocus required>
+			<label>Passphrase:</label>
+			<input id="passphrase" type="password" placeholder="Enter the passphrase" required>
+		</fieldset>
+		<fieldset>
+			<input type="submit" value="Decrypt">
+		</fieldset>
+		<textarea id="plaintext" readonly></textarea>
+	</form>
+	<script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/aes.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
