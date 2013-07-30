@@ -11,7 +11,7 @@ might appear to be slightly useless.
 
 ## Usage
 
-Your best bet is OpenSSL: 
+Your best bet is OpenSSL:
 
     $ openssl aes-256-cbc -base64 -in secrets -out secrets.aes
 
