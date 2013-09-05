@@ -10,9 +10,9 @@ This was more of an exercise in web design than anything else, which is why it m
 
 Your best bet is OpenSSL:
 
-    $ openssl aes-256-cbc -base64 -in secrets -out secrets.aes
+	$ openssl aes-256-cbc -base64 -in secrets -out secrets.aes
 
-Use a strong [passphrase][pass] and then copy the contents of the file to your clipboard. Fire up [AES Decryption][aes], paste in the ciphertext, enter the passhrase, and click the decrypt button.
+Use a strong [passphrase][pass] and then copy the contents of the file to your clipboard. Fire up [AES Decryption][aes], paste in the ciphertext, enter the passphrase, and click the decrypt button.
 
 [pass]: http://passphra.se
 [aes]: http://mitchellkember.com/aes/
