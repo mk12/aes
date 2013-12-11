@@ -19,6 +19,6 @@ Use a strong [passphrase][pass] and then copy the contents of the file to your c
 
 ## License
 
-Copyright © 2012 Mitchell Kember
+© 2012 Mitchell Kember
 
 AES Decryption is available under the MIT License; see [LICENSE](LICENSE.md) for details.
